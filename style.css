@@ -1,0 +1,99 @@
+body
+{
+	background-color: #3d403e;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	text-align: center;
+	color: white;
+	font-size: 46px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#textbar
+{
+	height: 100px;
+	background-color: #30e377;
+	padding: 20px;
+	color: #ffffff;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+#sidebar
+{
+	width: 118px;
+	min-height: 450px;
+	float: left;
+	background-color: lightgray;
+	padding:20px;
+	text-align: center;
+	border-right: 2px dotted #666666;
+}
+
+#content
+{
+	width: 800px;
+	padding: 20px;
+	float: left;
+	background-color: #CAE7FC;
+	min-height: 450px;
+}
+
+#footer
+{
+	margin-top: 10px;
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#textbarL
+{
+	float:left;
+    padding: 20px;
+    width: 138px;
+    text-align: center;
+    border-right: 2px dotted #cccccc;
+}
+
+#textbarR
+{
+	 float: left;
+    padding: 20px;
+    width: 760px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.menu
+{
+	font-size:16px;
+	height: 30px;
+	border-bottom: 2px dotted #444444;
+	padding: 10px;
+	text-align: center;
+}
+
+.menu:hover
+{
+	background-color: #E27574;
+	cursor: pointer;
+	font-size: 18px;
+}
